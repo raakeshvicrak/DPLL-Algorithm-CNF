@@ -14,4 +14,5 @@ represents:
 (P1 v P2 v P3) ^ (-P1 v P3) ^ P4 ^ (-P4 v -P3)
 
 -> init (self, cnf) accepts as input a CNF formula as a list of sets
+
 -> solve(self) returns True if cnf is satisfiable and False otherwise
